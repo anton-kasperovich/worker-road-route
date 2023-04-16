@@ -4,10 +4,10 @@ Repository *will* contain Cloudflare Worker written in Rust to get route and rel
 
 ## Use-case
 
-::: mermaid
+```mermaid
 graph LR;
     User --> id1["Cloudflare"] --> Worker --> id2[(D1)] & RapidApi?;
-:::
+```
 
 ## Usage
 
